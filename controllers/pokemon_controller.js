@@ -10,5 +10,4 @@ router.get('/', pokemon.getAll, function(req, res) {
   res.render('./pokemon/index.html', mustacheVariables);
 });
 
-
 module.exports = router;
